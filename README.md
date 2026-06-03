@@ -1,0 +1,3 @@
+encabezados.py — Analizador de security headers HTTP. Clasifica headers faltantes por severidad (crítico / advertencia / info): HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy. Detecta headers que filtran información del stack (Server, X-Powered-By, X-AspNet-Version). Sin dependencias externas. Soporte --tor vía proxychains, --save para exportar output.
+
+formweb.py — Analizador de formularios HTML. Detecta ausencia de tokens CSRF, campos password sin autocomplete=off, datos sensibles enviados por GET, action en HTTP, campos sin maxlength, honeypots y hidden no-CSRF. Sin dependencias externas. Soporte --save para exportar output.
